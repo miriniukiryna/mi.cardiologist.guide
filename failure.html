@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Оплата не пройшла</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background: #f3f5f7;
+      color: #222;
+    }
+    .wrap {
+      max-width: 720px;
+      background: #fff;
+      border-radius: 16px;
+      padding: 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.12);
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #e53935; /* червоний для невдалої оплати */
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .muted {
+      opacity: .7;
+      font-size: .95rem;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="section-title heavy-font">Оплата не пройшла</h1>
+    <p>Схоже, сталася помилка.</p>
+    <p class="muted">Будь ласка, спробуйте ще раз або зверніться до служби підтримки.</p>
+    <a href="index.html" class="btn">Повернутися на головну</a>
+  </div>
+</body>
+</html>
